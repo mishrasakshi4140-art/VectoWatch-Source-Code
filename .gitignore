@@ -1,0 +1,35 @@
+# Local databases and backups
+/backup_before_restore/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.secret
+*.secrets
+
+# Python environments and generated files
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.log
